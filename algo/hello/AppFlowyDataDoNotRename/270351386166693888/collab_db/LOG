@@ -1,0 +1,331 @@
+2023/12/11-10:58:19.349749 3c90 RocksDB version: 8.1.1
+2023/12/11-10:58:19.349829 3c90 Compile date 2023-04-06 16:38:52
+2023/12/11-10:58:19.349843 3c90 DB SUMMARY
+2023/12/11-10:58:19.349853 3c90 DB Session ID:  AFZMH4VUG7JQ2IWC3IJS
+2023/12/11-10:58:19.350108 3c90 SST files in C:\Users\gotom\Documents\mine\wsl\kuei_learn\algo\hello\AppFlowyDataDoNotRename/270351386166693888\collab_db dir, Total Num: 0, files: 
+2023/12/11-10:58:19.350122 3c90 Write Ahead Log file in C:\Users\gotom\Documents\mine\wsl\kuei_learn\algo\hello\AppFlowyDataDoNotRename/270351386166693888\collab_db: 
+2023/12/11-10:58:19.350133 3c90                         Options.error_if_exists: 0
+2023/12/11-10:58:19.350142 3c90                       Options.create_if_missing: 1
+2023/12/11-10:58:19.350516 3c90                         Options.paranoid_checks: 1
+2023/12/11-10:58:19.350521 3c90             Options.flush_verify_memtable_count: 1
+2023/12/11-10:58:19.350524 3c90                               Options.track_and_verify_wals_in_manifest: 0
+2023/12/11-10:58:19.350527 3c90        Options.verify_sst_unique_id_in_manifest: 1
+2023/12/11-10:58:19.350530 3c90                                     Options.env: 000002A5B88945E0
+2023/12/11-10:58:19.350533 3c90                                      Options.fs: WinFS
+2023/12/11-10:58:19.350536 3c90                                Options.info_log: 000002A5C14C3AE0
+2023/12/11-10:58:19.350539 3c90                Options.max_file_opening_threads: 16
+2023/12/11-10:58:19.350543 3c90                              Options.statistics: 0000000000000000
+2023/12/11-10:58:19.350546 3c90                               Options.use_fsync: 0
+2023/12/11-10:58:19.350549 3c90                       Options.max_log_file_size: 0
+2023/12/11-10:58:19.350552 3c90                  Options.max_manifest_file_size: 1073741824
+2023/12/11-10:58:19.350554 3c90                   Options.log_file_time_to_roll: 0
+2023/12/11-10:58:19.350557 3c90                       Options.keep_log_file_num: 1000
+2023/12/11-10:58:19.350560 3c90                    Options.recycle_log_file_num: 0
+2023/12/11-10:58:19.350563 3c90                         Options.allow_fallocate: 1
+2023/12/11-10:58:19.350565 3c90                        Options.allow_mmap_reads: 0
+2023/12/11-10:58:19.350568 3c90                       Options.allow_mmap_writes: 0
+2023/12/11-10:58:19.350571 3c90                        Options.use_direct_reads: 0
+2023/12/11-10:58:19.350573 3c90                        Options.use_direct_io_for_flush_and_compaction: 0
+2023/12/11-10:58:19.350576 3c90          Options.create_missing_column_families: 0
+2023/12/11-10:58:19.350578 3c90                              Options.db_log_dir: 
+2023/12/11-10:58:19.350581 3c90                                 Options.wal_dir: 
+2023/12/11-10:58:19.350584 3c90                Options.table_cache_numshardbits: 6
+2023/12/11-10:58:19.350587 3c90                         Options.WAL_ttl_seconds: 0
+2023/12/11-10:58:19.350589 3c90                       Options.WAL_size_limit_MB: 0
+2023/12/11-10:58:19.350592 3c90                        Options.max_write_batch_group_size_bytes: 1048576
+2023/12/11-10:58:19.350595 3c90             Options.manifest_preallocation_size: 4194304
+2023/12/11-10:58:19.350597 3c90                     Options.is_fd_close_on_exec: 1
+2023/12/11-10:58:19.350600 3c90                   Options.advise_random_on_open: 1
+2023/12/11-10:58:19.350603 3c90                    Options.db_write_buffer_size: 0
+2023/12/11-10:58:19.350605 3c90                    Options.write_buffer_manager: 000002A5ACA20330
+2023/12/11-10:58:19.350608 3c90         Options.access_hint_on_compaction_start: 1
+2023/12/11-10:58:19.350611 3c90           Options.random_access_max_buffer_size: 1048576
+2023/12/11-10:58:19.350613 3c90                      Options.use_adaptive_mutex: 0
+2023/12/11-10:58:19.350616 3c90                            Options.rate_limiter: 0000000000000000
+2023/12/11-10:58:19.350620 3c90     Options.sst_file_manager.rate_bytes_per_sec: 0
+2023/12/11-10:58:19.350623 3c90                       Options.wal_recovery_mode: 2
+2023/12/11-10:58:19.350626 3c90                  Options.enable_thread_tracking: 0
+2023/12/11-10:58:19.350644 3c90                  Options.enable_pipelined_write: 0
+2023/12/11-10:58:19.350648 3c90                  Options.unordered_write: 0
+2023/12/11-10:58:19.350650 3c90         Options.allow_concurrent_memtable_write: 1
+2023/12/11-10:58:19.350653 3c90      Options.enable_write_thread_adaptive_yield: 1
+2023/12/11-10:58:19.350656 3c90             Options.write_thread_max_yield_usec: 100
+2023/12/11-10:58:19.350659 3c90            Options.write_thread_slow_yield_usec: 3
+2023/12/11-10:58:19.350661 3c90                               Options.row_cache: None
+2023/12/11-10:58:19.350664 3c90                              Options.wal_filter: None
+2023/12/11-10:58:19.350667 3c90             Options.avoid_flush_during_recovery: 0
+2023/12/11-10:58:19.350669 3c90             Options.allow_ingest_behind: 0
+2023/12/11-10:58:19.350672 3c90             Options.two_write_queues: 0
+2023/12/11-10:58:19.350675 3c90             Options.manual_wal_flush: 0
+2023/12/11-10:58:19.350677 3c90             Options.wal_compression: 0
+2023/12/11-10:58:19.350680 3c90             Options.atomic_flush: 0
+2023/12/11-10:58:19.350682 3c90             Options.avoid_unnecessary_blocking_io: 0
+2023/12/11-10:58:19.350685 3c90                 Options.persist_stats_to_disk: 0
+2023/12/11-10:58:19.350688 3c90                 Options.write_dbid_to_manifest: 0
+2023/12/11-10:58:19.350690 3c90                 Options.log_readahead_size: 0
+2023/12/11-10:58:19.350693 3c90                 Options.file_checksum_gen_factory: Unknown
+2023/12/11-10:58:19.350696 3c90                 Options.best_efforts_recovery: 0
+2023/12/11-10:58:19.350699 3c90                Options.max_bgerror_resume_count: 2147483647
+2023/12/11-10:58:19.350701 3c90            Options.bgerror_resume_retry_interval: 1000000
+2023/12/11-10:58:19.350704 3c90             Options.allow_data_in_errors: 0
+2023/12/11-10:58:19.350707 3c90             Options.db_host_id: __hostname__
+2023/12/11-10:58:19.350710 3c90             Options.enforce_single_del_contracts: true
+2023/12/11-10:58:19.350712 3c90             Options.max_background_jobs: 2
+2023/12/11-10:58:19.350715 3c90             Options.max_background_compactions: -1
+2023/12/11-10:58:19.350718 3c90             Options.max_subcompactions: 1
+2023/12/11-10:58:19.350720 3c90             Options.avoid_flush_during_shutdown: 0
+2023/12/11-10:58:19.350723 3c90           Options.writable_file_max_buffer_size: 1048576
+2023/12/11-10:58:19.350726 3c90             Options.delayed_write_rate : 16777216
+2023/12/11-10:58:19.350729 3c90             Options.max_total_wal_size: 0
+2023/12/11-10:58:19.350731 3c90             Options.delete_obsolete_files_period_micros: 21600000000
+2023/12/11-10:58:19.350734 3c90                   Options.stats_dump_period_sec: 600
+2023/12/11-10:58:19.350737 3c90                 Options.stats_persist_period_sec: 600
+2023/12/11-10:58:19.350739 3c90                 Options.stats_history_buffer_size: 1048576
+2023/12/11-10:58:19.350742 3c90                          Options.max_open_files: -1
+2023/12/11-10:58:19.350745 3c90                          Options.bytes_per_sync: 0
+2023/12/11-10:58:19.350748 3c90                      Options.wal_bytes_per_sync: 0
+2023/12/11-10:58:19.350750 3c90                   Options.strict_bytes_per_sync: 0
+2023/12/11-10:58:19.350753 3c90       Options.compaction_readahead_size: 0
+2023/12/11-10:58:19.350755 3c90                  Options.max_background_flushes: -1
+2023/12/11-10:58:19.350759 3c90 Compression algorithms supported:
+2023/12/11-10:58:19.350762 3c90 	kZSTD supported: 1
+2023/12/11-10:58:19.350765 3c90 	kSnappyCompression supported: 0
+2023/12/11-10:58:19.350767 3c90 	kBZip2Compression supported: 0
+2023/12/11-10:58:19.350770 3c90 	kZlibCompression supported: 0
+2023/12/11-10:58:19.350773 3c90 	kLZ4Compression supported: 0
+2023/12/11-10:58:19.350776 3c90 	kXpressCompression supported: 0
+2023/12/11-10:58:19.350779 3c90 	kLZ4HCCompression supported: 0
+2023/12/11-10:58:19.350781 3c90 	kZSTDNotFinalCompression supported: 1
+2023/12/11-10:58:19.350785 3c90 Fast CRC32 supported: Not supported on x86
+2023/12/11-10:58:19.350800 3c90 DMutex implementation: std::mutex
+2023/12/11-10:58:19.356386 3c90 [db/db_impl/db_impl_open.cc:315] Creating manifest 1 
+2023/12/11-10:58:19.364797 3c90 [db/version_set.cc:5662] Recovering from manifest file: C:\Users\gotom\Documents\mine\wsl\kuei_learn\algo\hello\AppFlowyDataDoNotRename/270351386166693888\collab_db/MANIFEST-000001
+2023/12/11-10:58:19.364923 3c90 [db/column_family.cc:621] --------------- Options for column family [default]:
+2023/12/11-10:58:19.364928 3c90               Options.comparator: leveldb.BytewiseComparator
+2023/12/11-10:58:19.364931 3c90           Options.merge_operator: None
+2023/12/11-10:58:19.364934 3c90        Options.compaction_filter: None
+2023/12/11-10:58:19.364937 3c90        Options.compaction_filter_factory: None
+2023/12/11-10:58:19.364939 3c90  Options.sst_partitioner_factory: None
+2023/12/11-10:58:19.364942 3c90         Options.memtable_factory: SkipListFactory
+2023/12/11-10:58:19.364945 3c90            Options.table_factory: BlockBasedTable
+2023/12/11-10:58:19.364966 3c90            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002A5B88AA600)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 4
+  no_block_cache: 0
+  block_cache: 000002A5ACA207F0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+    low_pri_pool_ratio: 0.000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+  initial_auto_readahead_size: 8192
+  num_file_reads_for_auto_readahead: 2
+2023/12/11-10:58:19.364969 3c90        Options.write_buffer_size: 67108864
+2023/12/11-10:58:19.364972 3c90  Options.max_write_buffer_number: 2
+2023/12/11-10:58:19.364975 3c90          Options.compression: NoCompression
+2023/12/11-10:58:19.364978 3c90                  Options.bottommost_compression: Disabled
+2023/12/11-10:58:19.364980 3c90       Options.prefix_extractor: nullptr
+2023/12/11-10:58:19.364983 3c90   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2023/12/11-10:58:19.364986 3c90             Options.num_levels: 7
+2023/12/11-10:58:19.364988 3c90        Options.min_write_buffer_number_to_merge: 1
+2023/12/11-10:58:19.364991 3c90     Options.max_write_buffer_number_to_maintain: 0
+2023/12/11-10:58:19.364994 3c90     Options.max_write_buffer_size_to_maintain: 134217728
+2023/12/11-10:58:19.364996 3c90            Options.bottommost_compression_opts.window_bits: -14
+2023/12/11-10:58:19.364999 3c90                  Options.bottommost_compression_opts.level: 32767
+2023/12/11-10:58:19.365002 3c90               Options.bottommost_compression_opts.strategy: 0
+2023/12/11-10:58:19.365005 3c90         Options.bottommost_compression_opts.max_dict_bytes: 0
+2023/12/11-10:58:19.365007 3c90         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2023/12/11-10:58:19.365010 3c90         Options.bottommost_compression_opts.parallel_threads: 1
+2023/12/11-10:58:19.365013 3c90                  Options.bottommost_compression_opts.enabled: false
+2023/12/11-10:58:19.365017 3c90         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2023/12/11-10:58:19.365020 3c90         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2023/12/11-10:58:19.365023 3c90            Options.compression_opts.window_bits: -14
+2023/12/11-10:58:19.365026 3c90                  Options.compression_opts.level: 32767
+2023/12/11-10:58:19.365039 3c90               Options.compression_opts.strategy: 0
+2023/12/11-10:58:19.365043 3c90         Options.compression_opts.max_dict_bytes: 0
+2023/12/11-10:58:19.365046 3c90         Options.compression_opts.zstd_max_train_bytes: 0
+2023/12/11-10:58:19.365049 3c90         Options.compression_opts.use_zstd_dict_trainer: true
+2023/12/11-10:58:19.365052 3c90         Options.compression_opts.parallel_threads: 1
+2023/12/11-10:58:19.365055 3c90                  Options.compression_opts.enabled: false
+2023/12/11-10:58:19.365059 3c90         Options.compression_opts.max_dict_buffer_bytes: 0
+2023/12/11-10:58:19.365062 3c90      Options.level0_file_num_compaction_trigger: 4
+2023/12/11-10:58:19.365064 3c90          Options.level0_slowdown_writes_trigger: 20
+2023/12/11-10:58:19.365067 3c90              Options.level0_stop_writes_trigger: 36
+2023/12/11-10:58:19.365070 3c90                   Options.target_file_size_base: 67108864
+2023/12/11-10:58:19.365073 3c90             Options.target_file_size_multiplier: 1
+2023/12/11-10:58:19.365076 3c90                Options.max_bytes_for_level_base: 268435456
+2023/12/11-10:58:19.365080 3c90 Options.level_compaction_dynamic_level_bytes: 0
+2023/12/11-10:58:19.365083 3c90          Options.max_bytes_for_level_multiplier: 10.000000
+2023/12/11-10:58:19.365086 3c90 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2023/12/11-10:58:19.365089 3c90 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2023/12/11-10:58:19.365092 3c90 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2023/12/11-10:58:19.365095 3c90 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2023/12/11-10:58:19.365098 3c90 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2023/12/11-10:58:19.365101 3c90 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2023/12/11-10:58:19.365104 3c90 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2023/12/11-10:58:19.365107 3c90       Options.max_sequential_skip_in_iterations: 8
+2023/12/11-10:58:19.365111 3c90                    Options.max_compaction_bytes: 1677721600
+2023/12/11-10:58:19.365114 3c90   Options.ignore_max_compaction_bytes_for_input: true
+2023/12/11-10:58:19.365117 3c90                        Options.arena_block_size: 1048576
+2023/12/11-10:58:19.365120 3c90   Options.soft_pending_compaction_bytes_limit: 68719476736
+2023/12/11-10:58:19.365122 3c90   Options.hard_pending_compaction_bytes_limit: 274877906944
+2023/12/11-10:58:19.365125 3c90                Options.disable_auto_compactions: 1
+2023/12/11-10:58:19.365129 3c90                        Options.compaction_style: kCompactionStyleLevel
+2023/12/11-10:58:19.365133 3c90                          Options.compaction_pri: kMinOverlappingRatio
+2023/12/11-10:58:19.365135 3c90 Options.compaction_options_universal.size_ratio: 1
+2023/12/11-10:58:19.365138 3c90 Options.compaction_options_universal.min_merge_width: 2
+2023/12/11-10:58:19.365141 3c90 Options.compaction_options_universal.max_merge_width: 4294967295
+2023/12/11-10:58:19.365143 3c90 Options.compaction_options_universal.max_size_amplification_percent: 200
+2023/12/11-10:58:19.365146 3c90 Options.compaction_options_universal.compression_size_percent: -1
+2023/12/11-10:58:19.365149 3c90 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2023/12/11-10:58:19.365152 3c90 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2023/12/11-10:58:19.365155 3c90 Options.compaction_options_fifo.allow_compaction: 0
+2023/12/11-10:58:19.365159 3c90                   Options.table_properties_collectors: 
+2023/12/11-10:58:19.365162 3c90                   Options.inplace_update_support: 0
+2023/12/11-10:58:19.365164 3c90                 Options.inplace_update_num_locks: 10000
+2023/12/11-10:58:19.365167 3c90               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2023/12/11-10:58:19.365170 3c90               Options.memtable_whole_key_filtering: 0
+2023/12/11-10:58:19.365172 3c90   Options.memtable_huge_page_size: 0
+2023/12/11-10:58:19.365175 3c90                           Options.bloom_locality: 0
+2023/12/11-10:58:19.365207 3c90                    Options.max_successive_merges: 0
+2023/12/11-10:58:19.365211 3c90                Options.optimize_filters_for_hits: 0
+2023/12/11-10:58:19.365213 3c90                Options.paranoid_file_checks: 0
+2023/12/11-10:58:19.365216 3c90                Options.force_consistency_checks: 1
+2023/12/11-10:58:19.365219 3c90                Options.report_bg_io_stats: 0
+2023/12/11-10:58:19.365222 3c90                               Options.ttl: 2592000
+2023/12/11-10:58:19.365224 3c90          Options.periodic_compaction_seconds: 0
+2023/12/11-10:58:19.365227 3c90  Options.preclude_last_level_data_seconds: 0
+2023/12/11-10:58:19.365230 3c90    Options.preserve_internal_time_seconds: 0
+2023/12/11-10:58:19.365232 3c90                       Options.enable_blob_files: false
+2023/12/11-10:58:19.365235 3c90                           Options.min_blob_size: 0
+2023/12/11-10:58:19.365238 3c90                          Options.blob_file_size: 268435456
+2023/12/11-10:58:19.365240 3c90                   Options.blob_compression_type: NoCompression
+2023/12/11-10:58:19.365243 3c90          Options.enable_blob_garbage_collection: false
+2023/12/11-10:58:19.365246 3c90      Options.blob_garbage_collection_age_cutoff: 0.250000
+2023/12/11-10:58:19.365249 3c90 Options.blob_garbage_collection_force_threshold: 1.000000
+2023/12/11-10:58:19.365252 3c90          Options.blob_compaction_readahead_size: 0
+2023/12/11-10:58:19.365255 3c90                Options.blob_file_starting_level: 0
+2023/12/11-10:58:19.365258 3c90 Options.experimental_mempurge_threshold: 0.000000
+2023/12/11-10:58:19.367440 3c90 [db/version_set.cc:5713] Recovered from manifest file:C:\Users\gotom\Documents\mine\wsl\kuei_learn\algo\hello\AppFlowyDataDoNotRename/270351386166693888\collab_db/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2023/12/11-10:58:19.367455 3c90 [db/version_set.cc:5722] Column family [default] (ID 0), log number is 0
+2023/12/11-10:58:19.367706 3c90 [db/db_impl/db_impl_open.cc:537] DB ID: 22d68f99-97d1-11ee-82bf-004238c06448
+2023/12/11-10:58:19.368909 3c90 [db/version_set.cc:5180] Creating manifest 5
+2023/12/11-10:58:19.377593 3c90 [db/db_impl/db_impl_open.cc:1977] SstFileManager instance 000002A5C1CCF5A0
+2023/12/11-10:58:19.377940 3c90 DB pointer 000002A5C136BF40
+2023/12/11-10:58:19.377962 3c90 [WARN] [utilities/transactions/pessimistic_transaction_db.cc:262] Transaction write_policy is 0
+2023/12/11-10:58:19.382868 3c90 [db/db_impl/db_impl.cc:1187] SetOptions() on column family [default], inputs:
+2023/12/11-10:58:19.382878 3c90 [db/db_impl/db_impl.cc:1190] disable_auto_compactions: false
+2023/12/11-10:58:19.382881 3c90 [db/db_impl/db_impl.cc:1194] [default] SetOptions() succeeded
+2023/12/11-10:58:19.382885 3c90 [options/cf_options.cc:1004]                         write_buffer_size: 67108864
+2023/12/11-10:58:19.382888 3c90 [options/cf_options.cc:1006]                   max_write_buffer_number: 2
+2023/12/11-10:58:19.382891 3c90 [options/cf_options.cc:1009]                          arena_block_size: 1048576
+2023/12/11-10:58:19.382894 3c90 [options/cf_options.cc:1011]               memtable_prefix_bloom_ratio: 0.000000
+2023/12/11-10:58:19.382898 3c90 [options/cf_options.cc:1013]               memtable_whole_key_filtering: 0
+2023/12/11-10:58:19.382901 3c90 [options/cf_options.cc:1016]                   memtable_huge_page_size: 0
+2023/12/11-10:58:19.382904 3c90 [options/cf_options.cc:1019]                     max_successive_merges: 0
+2023/12/11-10:58:19.382907 3c90 [options/cf_options.cc:1022]                  inplace_update_num_locks: 10000
+2023/12/11-10:58:19.382910 3c90 [options/cf_options.cc:1026]                          prefix_extractor: nullptr
+2023/12/11-10:58:19.382913 3c90 [options/cf_options.cc:1028]                  disable_auto_compactions: 0
+2023/12/11-10:58:19.382916 3c90 [options/cf_options.cc:1030]       soft_pending_compaction_bytes_limit: 68719476736
+2023/12/11-10:58:19.382919 3c90 [options/cf_options.cc:1032]       hard_pending_compaction_bytes_limit: 274877906944
+2023/12/11-10:58:19.382924 3c90 [options/cf_options.cc:1034]        level0_file_num_compaction_trigger: 4
+2023/12/11-10:58:19.382929 3c90 [options/cf_options.cc:1036]            level0_slowdown_writes_trigger: 20
+2023/12/11-10:58:19.382932 3c90 [options/cf_options.cc:1038]                level0_stop_writes_trigger: 36
+2023/12/11-10:58:19.382935 3c90 [options/cf_options.cc:1040]                      max_compaction_bytes: 1677721600
+2023/12/11-10:58:19.382938 3c90 [options/cf_options.cc:1042]     ignore_max_compaction_bytes_for_input: true
+2023/12/11-10:58:19.382941 3c90 [options/cf_options.cc:1044]                     target_file_size_base: 67108864
+2023/12/11-10:58:19.382944 3c90 [options/cf_options.cc:1046]               target_file_size_multiplier: 1
+2023/12/11-10:58:19.382947 3c90 [options/cf_options.cc:1048]                  max_bytes_for_level_base: 268435456
+2023/12/11-10:58:19.382950 3c90 [options/cf_options.cc:1050]            max_bytes_for_level_multiplier: 10.000000
+2023/12/11-10:58:19.382954 3c90 [options/cf_options.cc:1052]                                       ttl: 2592000
+2023/12/11-10:58:19.382957 3c90 [options/cf_options.cc:1054]               periodic_compaction_seconds: 0
+2023/12/11-10:58:19.382961 3c90 [options/cf_options.cc:1068] max_bytes_for_level_multiplier_additional: 1, 1, 1, 1, 1, 1, 1
+2023/12/11-10:58:19.382964 3c90 [options/cf_options.cc:1070]         max_sequential_skip_in_iterations: 8
+2023/12/11-10:58:19.382967 3c90 [options/cf_options.cc:1072]          check_flush_compaction_key_order: 1
+2023/12/11-10:58:19.382970 3c90 [options/cf_options.cc:1074]                      paranoid_file_checks: 0
+2023/12/11-10:58:19.382973 3c90 [options/cf_options.cc:1076]                        report_bg_io_stats: 0
+2023/12/11-10:58:19.382975 3c90 [options/cf_options.cc:1078]                               compression: 0
+2023/12/11-10:58:19.382978 3c90 [options/cf_options.cc:1081]                        experimental_mempurge_threshold: 0.000000
+2023/12/11-10:58:19.382982 3c90 [options/cf_options.cc:1085] compaction_options_universal.size_ratio : 1
+2023/12/11-10:58:19.382985 3c90 [options/cf_options.cc:1087] compaction_options_universal.min_merge_width : 2
+2023/12/11-10:58:19.382988 3c90 [options/cf_options.cc:1089] compaction_options_universal.max_merge_width : -1
+2023/12/11-10:58:19.382991 3c90 [options/cf_options.cc:1092] compaction_options_universal.max_size_amplification_percent : 200
+2023/12/11-10:58:19.382994 3c90 [options/cf_options.cc:1095] compaction_options_universal.compression_size_percent : -1
+2023/12/11-10:58:19.382997 3c90 [options/cf_options.cc:1097] compaction_options_universal.stop_style : 1
+2023/12/11-10:58:19.383000 3c90 [options/cf_options.cc:1100] compaction_options_universal.allow_trivial_move : 0
+2023/12/11-10:58:19.383003 3c90 [options/cf_options.cc:1102] compaction_options_universal.incremental        : 0
+2023/12/11-10:58:19.383006 3c90 [options/cf_options.cc:1106] compaction_options_fifo.max_table_files_size : 1073741824
+2023/12/11-10:58:19.383011 3c90 [options/cf_options.cc:1108] compaction_options_fifo.allow_compaction : 0
+2023/12/11-10:58:19.383015 3c90 [options/cf_options.cc:1112]                         enable_blob_files: false
+2023/12/11-10:58:19.383019 3c90 [options/cf_options.cc:1114]                             min_blob_size: 0
+2023/12/11-10:58:19.383023 3c90 [options/cf_options.cc:1116]                            blob_file_size: 268435456
+2023/12/11-10:58:19.383028 3c90 [options/cf_options.cc:1118]                     blob_compression_type: NoCompression
+2023/12/11-10:58:19.383031 3c90 [options/cf_options.cc:1120]            enable_blob_garbage_collection: false
+2023/12/11-10:58:19.383034 3c90 [options/cf_options.cc:1122]        blob_garbage_collection_age_cutoff: 0.250000
+2023/12/11-10:58:19.383038 3c90 [options/cf_options.cc:1124]   blob_garbage_collection_force_threshold: 1.000000
+2023/12/11-10:58:19.383041 3c90 [options/cf_options.cc:1126]            blob_compaction_readahead_size: 0
+2023/12/11-10:58:19.383046 3c90 [options/cf_options.cc:1128]                  blob_file_starting_level: 0
+2023/12/11-10:58:19.383049 3c90 [options/cf_options.cc:1132]                    prepopulate_blob_cache: disable
+2023/12/11-10:58:19.383052 3c90 [options/cf_options.cc:1134]                    last_level_temperature: 0
+2023/12/11-10:58:25.379074 4764 [db/db_impl/db_impl.cc:1085] ------- DUMPING STATS -------
+2023/12/11-10:58:25.379100 4764 [db/db_impl/db_impl.cc:1086] 
+** DB Stats **
+Uptime(secs): 6.0 total, 6.0 interval
+Cumulative writes: 8 writes, 16 keys, 8 commit groups, 1.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 8 writes, 0 syncs, 8.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 8 writes, 16 keys, 8 commit groups, 1.0 writes per commit group, ingest: 0.01 MB, 0.00 MB/s
+Interval WAL: 8 writes, 0 syncs, 8.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+Write Stall (count): write-buffer-manager-limit-stops: 0, 
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB, garbage size: 0.0 GB, space amp: 0.0
+
+Uptime(secs): 6.0 total, 6.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Write Stall (count): cf-l0-file-count-limit-delays-with-ongoing-compaction: 0, cf-l0-file-count-limit-stops-with-ongoing-compaction: 0, l0-file-count-limit-delays: 0, l0-file-count-limit-stops: 0, memtable-limit-delays: 0, memtable-limit-stops: 0, pending-compaction-bytes-delays: 0, pending-compaction-bytes-stops: 0, total-delays: 0, total-stops: 0, Block cache LRUCache@000002A5ACA207F0#2140 capacity: 8.00 MB usage: 0.08 KB table_size: 256 occupancy: 87 collections: 1 last_copies: 0 last_secs: 2.5e-05 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** File Read Latency Histogram By Level [default] **

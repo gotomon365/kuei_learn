@@ -1,3 +1,3 @@
 # kuei_learn
-my learning progress //
+my learning progress \
 I want to do something different
